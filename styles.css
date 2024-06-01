@@ -8,7 +8,7 @@ body {
   padding-top: 10px;
   color: white;
   font-family: "Terminus", monospace;
-  font-size: 20px;
+  font-size: 15px;
 }
 
 p {
@@ -49,7 +49,7 @@ input.dynamic-width {
   color: white;
   border: none;
   font-family: "Terminus", monospace;
-  font-size: 20px;
+  font-size: 15px;
   outline: none;
   caret-color: transparent;
   margin: 0;
