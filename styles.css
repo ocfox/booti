@@ -1,0 +1,59 @@
+@font-face {
+  font-family: Terminus;
+  src: url(TerminusTTF-4.49.3.ttf);
+}
+
+body {
+  background: #000;
+  padding-top: 10px;
+  color: white;
+  font-family: "Terminus", monospace;
+  font-size: 20px;
+}
+
+p {
+  display: none;
+  /* Initially hide all paragraphs */
+  margin: 1px 0 0 1px;
+  white-space: pre;
+}
+
+.blue {
+  color: blue;
+}
+
+.blink {
+  animation: blink 1s steps(1, end) infinite;
+}
+
+@keyframes blink {
+  50% {
+    visibility: hidden;
+  }
+}
+
+.green {
+  color: green;
+}
+
+.red {
+  color: red;
+}
+
+::selection {
+  background: black;
+}
+
+input.dynamic-width {
+  background: transparent;
+  color: white;
+  border: none;
+  font-family: "Terminus", monospace;
+  font-size: 20px;
+  outline: none;
+  caret-color: transparent;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  right: -10px;
+}
