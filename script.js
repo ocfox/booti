@@ -25,9 +25,9 @@ document.addEventListener("DOMContentLoaded", function() {
           p.style.display = 'block';
           window.scrollTo(0, document.body.scrollHeight); // Scroll to the bottom of the page
 
-          // Check if the paragraph is the "Welcome" message
+          // Check if the paragraph is the "<<< ... >>>" message
           if (p.innerHTML.includes('3305b2b')) {
-            // Hide all paragraphs above the "Welcome" message
+            // Hide all paragraphs above the "<<< ... >>>" message
             const prevParagraphs = Array.from(paragraphs).slice(0, Array.from(paragraphs).indexOf(p));
             prevParagraphs.forEach(prevP => prevP.style.display = 'none');
           }
